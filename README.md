@@ -39,19 +39,19 @@
 
 Write a function that receives two parameters, x and y coordinates in
 the Cartesian plane, and prints out a message indicating if the point (x, y) lies on either the x or y axis,
- or what quadrant the point lies in.
+or what quadrant the point lies in.
 
- For example:
+For example:
 
- - (0, 2) is on the x axis
- - (1, 2) is in Quadrant 1
- - (-6, 18) is in Quadrant 2
+- (0, 2) is on the x axis
+- (1, 2) is in Quadrant 1
+- (-6, 18) is in Quadrant 2
 
 ## Exercise 4: What type of triangle?
 
 Write a function that receives three numbers that represent the lengths of a triangles three sides. If the three
 sides do not form a valid triangle (the sum of two sides should always be greater than the length of the third side),
- you should return a message indicating an invalid triangle. Otherwise, return a string indicating the type of triangle
+you should return a message indicating an invalid triangle. Otherwise, return a string indicating the type of triangle
 the three sides make (equilateral: all side lengths equal, isosceles: only two side lengths equal, or scalene: all different side lengths).
 
 For example:
@@ -64,7 +64,7 @@ For example:
 Write a function that will display feedback on cell phone data usage. Cell phone
 plans for this particular company give you a certain amount of data every 30 days
 which must be used or they are lost (no rollover). We want to track the average amount of data
- used per day and inform the user if they are using too much data or can
+used per day and inform the user if they are using too much data or can
 afford to use more.
 
 Write a function that accepts the following parameters:
@@ -89,4 +89,3 @@ continuing this high usage, you'll exceed your data plan by
 11.9 GB.
 To stay below your data plan, use no more than 2.93 GB/day.
 ```
-
